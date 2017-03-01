@@ -5,7 +5,7 @@ namespace Maknz\Slack\Laravel;
 use Maknz\Slack\Client as Client;
 use GuzzleHttp\Client as Guzzle;
 
-class ServiceProviderLaravel54 extends \Illuminate\Support\ServiceProvider
+class ServiceProviderLaravel54 extends ServiceProviderLaravel5
 {
     /**
      * Register the service provider.
